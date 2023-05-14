@@ -6,7 +6,10 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <><h1>Test</h1><Header /><Footer /></>
+    <><Header />
+    <Footer 
+    name={'Raj'}
+    age={42} /></>
       );
 }
 
